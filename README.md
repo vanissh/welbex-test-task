@@ -54,10 +54,10 @@ npm run dev
 
 Подключение к базе данных
 
-Ввести в терминале(macOS/ Linux) / Windows PowerShell поочередно следующие команды:
+Зайти в терминал SQL Shell из папки программы PostgreSQL, ввести поочередно команды:
 ```
 psql -u postgres
-create database welbex-test-task;
-\connect welbex-test-task
+create database "welbex-test-task";
+\connect "welbex-test-task"
 ```
 В файле database.sql находятся скрипты для создания таблицы в бд и заполнения ее тестовыми данными, необходимо поочередно запустить их в терминале
